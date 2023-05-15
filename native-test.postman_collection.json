@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "d7dd74be-1361-4656-970c-92ed558c3332",
+		"name": "native-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25962699",
+		"_collection_link": "https://walnutek-project.postman.co/workspace/Team-Workspace~8cdedad3-4efb-494f-8304-f81d15ac61b8/collection/25962699-d7dd74be-1361-4656-970c-92ed558c3332?action=share&creator=25962699&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "find all user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find user by name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/user/name/user-1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"name",
+						"user-1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "generate user by system",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete user by account",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/user/account/account-3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"account",
+						"account-3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
